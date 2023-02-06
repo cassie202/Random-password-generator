@@ -13,9 +13,6 @@ passwordBtn.addEventListener( "click",function() {
          inputOne.setSelectionRange(0, 99999);
          navigator.clipboard.writeText(inputOne.value)
          alert("copied text: " + inputOne.value)
-         inputTwo.select();
-         inputTwo.setSelectionRange(0, 99999);
-         navigator.clipboard.writeText(inputTwo.value)
-         alert("copied text: " + inputTwo.value)
+         
 })
 
