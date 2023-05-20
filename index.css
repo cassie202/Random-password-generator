@@ -1,6 +1,4 @@
 body {
-
-    /* border: solid; */
     background-color: #1F2937;
     margin: 100px auto;
      width: 50%;
@@ -15,11 +13,11 @@ body {
      margin: 20px
      
  }
- .heading1{
+ .heading--one{
      color: #FFFFFF;
      margin-bottom: 0
  }
- .heading2{
+ .heading--two{
      color: #4ADF86;
      margin-top: 0;
      margin-bottom : 0
@@ -27,19 +25,16 @@ body {
  
  p{
      color: #D5D4D8;
-     margin-top: 0;
-     
-
+     margin-top: 0;   
  }
- .input-2{
+ .buttons--two{
      width: 200px;
      margin: 10px;
      background-color: #273549;
      padding: 18px;
      border: none;
      border-radius: 4px;
-     color:#FFFFFF;
-     
+     color:#FFFFFF;   
  }
  .buttons{
      display: flex;
